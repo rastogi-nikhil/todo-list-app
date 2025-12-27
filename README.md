@@ -218,14 +218,11 @@ Ensure you're running commands from the project root directory and that your vir
 This project is created as an assignment submission.
 
 ## Author
-
+Nikhil Rastogi 
 Created: December 2025
 
 ## Submission Information
-
-**Deadline**: Wednesday, December 31, 2025  
-**Submission Method**: Email or Google Drive link
-
 ---
 
 For detailed API documentation, see [API_DOCUMENTATION.md](API_DOCUMENTATION.md)
+
