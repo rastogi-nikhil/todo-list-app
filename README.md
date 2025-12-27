@@ -76,7 +76,7 @@ pip install -r requirements.txt
 ### Start the Server
 
 ```bash
-python -m app.app
+python -m app.py
 ```
 
 The application will start on `http://localhost:5000`
@@ -114,11 +114,18 @@ The project includes comprehensive test coverage for all API endpoints.
 ```bash
 pytest tests/ -v
 ```
-
+or 
+```bash
+python -m pytest tests/ -v
+```
 ### Run with Coverage Report
 
 ```bash
 pytest tests/ -v --cov=app
+```
+or 
+```bash
+python -m pytest tests/ -v --cov=app
 ```
 
 ### Test Structure
@@ -225,4 +232,5 @@ Created: December 2025
 ---
 
 For detailed API documentation, see [API_DOCUMENTATION.md](API_DOCUMENTATION.md)
+
 
